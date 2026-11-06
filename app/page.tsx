@@ -40,14 +40,9 @@ const proizvodi = [
 export default function Home() {
     return (
         <main>
-            <div className="announcement">
-                Besplatna dostava za porudžbine preko 3.500 RSD · Napravljeno u
-                Srbiji
-            </div>
-
             <header className="site-header">
-                <a href="#" className="wordmark">
-                    nōmma
+                <a href="#pocetna" className="logo">
+                    <img src="/nomma.png" alt="NOMMA Premium Quality" />
                 </a>
 
                 <nav className="main-nav">
@@ -57,7 +52,7 @@ export default function Home() {
                 </nav>
 
                 <a href="#kolekcija" className="cart-link">
-                    Korpa (0)
+                    Korpa <span>0</span>
                 </a>
             </header>
 
@@ -152,12 +147,69 @@ export default function Home() {
                 </p>
             </section>
 
-            <footer id="kontakt">
-                <a href="#" className="wordmark">
-                    nōmma
-                </a>
-                <p>Prirodna nega. Pažljivo osmišljena.</p>
-                <a href="mailto:zdravo@nomma.rs">zdravo@nomma.rs</a>
+            <footer id="kontakt" className="site-footer">
+                <div className="footer-grid">
+                    <div className="footer-brand">
+                        <a href="#kolekcija" className="footer-logo">
+                            <img src="/nomma.png" alt="NOMMA Premium Quality" />
+                        </a>
+
+                        <p>
+                            Pažljivo osmišljena nega za kosu i mali rituali koji
+                            prijaju svakog dana. Proizvedeno u Srbiji.
+                        </p>
+                    </div>
+
+                    <div className="footer-column">
+                        <h3>Istraži</h3>
+                        <a href="#kolekcija">Kolekcija</a>
+                        <a href="#prica">Naša priča</a>
+                        <a href="#kontakt">Kontakt</a>
+                    </div>
+
+                    <div className="footer-column">
+                        <h3>Piši nam</h3>
+                        <a href="mailto:info@nomma.rs">info@nomma.rs</a>
+                        <a
+                            className="instagram-link"
+                            href="https://www.instagram.com/nomma_kozmetika/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <svg
+                                viewBox="0 0 24 24"
+                                width="18"
+                                height="18"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="1.7"
+                                aria-hidden="true"
+                            >
+                                <rect
+                                    x="3"
+                                    y="3"
+                                    width="18"
+                                    height="18"
+                                    rx="5"
+                                />
+                                <circle cx="12" cy="12" r="4" />
+                                <circle
+                                    cx="17.5"
+                                    cy="6.5"
+                                    r="1"
+                                    fill="currentColor"
+                                    stroke="none"
+                                />
+                            </svg>
+                            nomma_kozmetika
+                        </a>
+                    </div>
+                </div>
+
+                <div className="footer-bottom">
+                    <span>© 2026 NOMMA</span>
+                    <span>Pažljivo osmišljena nega. Proizvedeno u Srbiji.</span>
+                </div>
             </footer>
         </main>
     );
