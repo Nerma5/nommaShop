@@ -10,7 +10,7 @@ export default function Home() {
             <section className="hero" id="pocetna">
                 <div>
                     <p className="eyebrow">
-                        ✳ PRIRODNA NEGA · PROIZVEDENO U SRBIJI
+                        PRIRODNA NEGA | PROIZVEDENO U SRBIJI
                     </p>
                     <h1>
                         Lepa kosa
@@ -22,7 +22,7 @@ export default function Home() {
                         male rituale za kosu kakvu voliš.
                     </p>
                     <a href="#kolekcija" className="button-dark">
-                        Istraži kolekciju ↗
+                        Istraži kolekciju
                     </a>
                 </div>
 
@@ -41,17 +41,17 @@ export default function Home() {
 
             <section className="benefiti">
                 <p>
-                    ✳ <b>Pažljivo birani sastojci</b>
+                    <b>| Pažljivo birani sastojci</b>
                     <br />
                     Priroda u svakoj formuli
                 </p>
                 <p>
-                    ↗ <b>Proizvedeno u Srbiji</b>
+                    <b>| Proizvedeno u Srbiji</b>
                     <br />
                     Stvoreno s pažnjom
                 </p>
                 <p>
-                    ○ <b>Rituali koji prijaju</b>
+                    <b>| Rituali koji prijaju</b>
                     <br />
                     Jednostavna svakodnevna nega
                 </p>
